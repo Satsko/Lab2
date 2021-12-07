@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
-namespace Lab1
+namespace Lab2
 {
     struct DataItem
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Numerics;
 
-namespace Lab1
+namespace Lab2
 {
     public static class DelegateFunction
     {
