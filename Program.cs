@@ -83,9 +83,9 @@ namespace ConsoleApp1
             v4DataList1.Add(new DataItem(new Vector2(5.0f, 7.0f), new Vector2(0.1f, 0.2f)));
             v4DataList1.Add(new DataItem(new Vector2(10.0f, 2.5f), new Vector2(4.2f, 1.4f)));
             v4DataList1.Add(new DataItem(new Vector2(0.4f, 11.0f), new Vector2(2.0f, 2.0f)));
-            v4DataList1.SaveAsText("V4DA");
+            v4DataList1.SaveAsText("V4DL");
             V4DataList v4DataList2 = new V4DataList("-", DateTime.Now);
-            v4DataList2.LoadAsText("V4DA", ref v4DataList2);
+            v4DataList2.LoadAsText("V4DL", ref v4DataList2);
             Console.WriteLine(v4DataList1.ToLongString("0.00"));
             Console.WriteLine(v4DataList2.ToLongString("0.00"));
         }
